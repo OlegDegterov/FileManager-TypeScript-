@@ -1,0 +1,23 @@
+.wrapper {
+    display:grid;
+    grid-template-areas:
+    "h h"
+    "f c"
+    "f c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap:10px;
+}
+.header {
+  grid-area: h;
+    background-color: whitesmoke;
+}
+.folder{
+    grid-area: f;
+    background-color: whitesmoke;
+}
+.content{
+    grid-area: c;
+    background-color: ghostwhite;
+}

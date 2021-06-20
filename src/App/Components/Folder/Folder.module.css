@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+}
+
+.preloader {
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+.folder {
+    margin-left: 25px;
+}
+
+.folderB {
+    margin-left: 5px;
+}
+
+.item {
+    padding-left: 50px;
+}
