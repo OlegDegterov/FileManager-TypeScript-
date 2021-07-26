@@ -7,7 +7,7 @@ type PropsTypes = {
     getFolder: (folder:number | null)=>void,
     id:number|null,
     title:string,
-    data:Array<Object>,
+    data:any,
 
 }
 const Folders: React.FC<PropsTypes> = (props) => {
